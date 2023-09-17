@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*slider prev-next buttons */
+#slider-buttons > button {
+    width: 5%;
+    border: none;
+    background-color: inherit;
+    color: white;
+    
+}
+
+/*second and third content buttons */ 
+#info-button > button, .third-info > button {
+    background-color:  #43eee4;
+}
+
+.button > button:hover, .third-info > #button:hover {
+    background-color:#2e3192;
+    transition: all 1s;
+    color: white;
+}
+
+/* personal use buttons and buy now */
+.box > button {
+    border-radius: 100px;
+    overflow: hidden;
+}
+
+#buy {
+    border-radius: 100px;
+    width: 30%;
+}
+
+#col-service .box > button:hover, #buy:hover {
+    background-color: #2e3192;
+    transition: all 1s;
+    color: white;
+}
+
+/*about company and contact us buttons*/
+#about-button, .contact-button > button {
+    border-radius: 100px;
+    color: white;
+    background-color: #43eee4;
+}
+
+#about-button:hover,.contact-button > button:hover {
+    background-color: #2e3192;
+    transition: all 1s;
+    color: white;
+}
